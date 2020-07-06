@@ -1,0 +1,207 @@
+* {
+margin:0;
+box-sizing:border-box;
+padding:0;
+}
+
+body {
+    background-color: #eee;
+}
+
+.card {
+    height:385px;
+    width:300px; 
+    background-color: white;
+    box-shadow: rgb(131, 129, 129) 0px 0px 20px 0px;
+}
+
+.card__imagen{
+    height:300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card__imagen img{
+    width: 100%;
+}
+    
+
+
+
+.contenedor__boton{
+    height: 110px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border:none;
+    font-size: 12px;
+    opacity:0.6;
+    background-color: rgb(84, 231, 182);
+    padding: 107.5px;
+    text-transform: uppercase;
+    top: -215px;
+    left: 1px;
+    position: absolute;
+    display: none;
+}
+
+
+.card__info{
+    padding: 40px;
+    position: relative;
+    height: 2px;
+    background-color: white;
+}
+
+.card__photos{
+    left: 30px;
+    position: absolute;
+    top: 13px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.card__photos_monto{
+    top: 13px;
+    left: 230px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: turquoise;
+    font-size: 1.5rem;
+}
+
+.card__photos_run{
+    top: 45px;
+    left: 30px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    color: rgb(134, 134, 134);
+}
+
+
+.card:hover .card__imagen {
+height: 55%;
+}
+
+.card:hover .card__imagen img{
+filter: grayscale(1.5);
+/*filter: opacity(0.9);
+filter: brightness(0.5);
+filter: hue-rotate(3.7);
+filter: blur(1px);
+filter: invert(4);*/
+}
+
+
+
+.card:hover .card__info {
+height: 44%;
+}
+
+
+.card__descripcion{
+    left: 30px;
+    position: absolute;
+    top: 70px;
+    display: none;
+    
+}
+
+.card__descripcion_tallas{
+    left: 30px;
+    position: absolute;
+    top: 90px;
+    color: rgb(134, 134, 134);
+    display: none;
+}
+
+.card__descripcion_color{
+    left: 30px;
+    position: absolute;
+    top: 120px;
+    display: none;
+}
+
+
+.imagena1{
+    width:21px;
+    height:21px;
+    border-radius: 50%;
+    background-color:rgb(78, 107, 202);
+    border: solid 1px rgb(191, 192, 196);
+    position: absolute;
+    left: 10%;
+    top: 140px;
+    display: none;
+}
+
+.imagena2 {
+    width:21px;
+    height:21px;
+    border-radius: 50%;
+    background-color:rgb(194, 18, 18);
+    border: solid 1px rgb(191, 192, 196);
+    position: absolute;
+    left: 19%;
+    top: 140px;
+    display: none;
+}
+
+.imagena3 {
+    width:21px;
+    height:21px;
+    border-radius: 50%;
+    background-color:white;
+    border: solid 1px rgb(191, 192, 196);
+    position: absolute;
+    left: 28%;
+    top: 140px; 
+    display: none;
+}
+
+.imagena4 {
+    width:21px;
+    height:21px;
+    border-radius: 50%;
+    background-color:rgb(30, 143, 39);
+    border: solid 1px rgb(191, 192, 196);
+    position: absolute;
+    left: 37%;
+    top: 140px;
+    display: none;
+}
+
+.card:hover .card__descripcion {
+display: block;
+}
+
+.card:hover .card__descripcion_tallas {
+    display: block;
+    }
+    
+.card:hover .card__descripcion_color {
+    display: block;
+    }
+    
+.card:hover .imagena1 {
+    display: block;
+    }
+    
+.card:hover .imagena2 {
+    display: block;
+    }
+    
+.card:hover .imagena3 {
+    display: block;
+    }
+    
+.card:hover .imagena4 {
+    display: block;
+    }
+
+    .card:hover .contenedor__boton{
+        display: block;
+        
+    }
+    
